@@ -72,6 +72,14 @@
     .main-header .header-list h5{
         font-size: 14px;
     }
+    
+    #vendor-category-section .vendor-category .top-category, #top-vendor-section .top-vendor .top-vendor-text{
+        flex-direction: column;
+        
+       }
+       #vendor-category-section .vendor-category .top-category .category-btn{
+           margin-top: 5px;
+       }
 }
 
 @media(max-width:376px){
@@ -83,5 +91,13 @@
     .main-header .header-list h5{
         font-size: 12px;
         margin-right: 14px !important;
+    }
+
+    #vendor-category-section .vendor-category .top-category, #top-vendor-section .top-vendor .top-vendor-text{
+     flex-direction: column;
+     
+    }
+    #vendor-category-section .vendor-category .top-category .category-btn{
+        margin-top: 5px;
     }
 }
